@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8" />
+    <title>Harjoitustyö</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/oma.css">
+</head>
+<body>
+	<main class="container-fluid paaNakyma">
+		<div class="row">
+			<div class="col-9 peliLauta" id="peliAlue">
+				
+			</div>
+
+			<div class="col-3">
+				<h3>JWT</h3>
+				<div id="nimiTiedot">Name:</div>
+				<div id="pisteTiedot">Score: 0</div>
+				<hr>
+				<div>
+						<b>Options:</b> <br>
+						Width: <input type="number" id="inLeveys"> <br>
+						Height: <input type="number" id="inKorkeus"> <br>
+						<button id="btnChange" class="btn">Change</button>
+				</div>
+				<hr>
+				<div>
+					<button id="btnUp" class="btn">Up</button>
+					<button id="btnDown" class="btn">Down</button>
+					<button id="btnLeft" class="btn">Left</button>
+					<button id="btnRight" class="btn">Right</button>
+				</div>
+				<div>
+					Coins with red background are worth 100 points, others 50 points.<br>
+					Coins switch places after every 5 moves.
+				</div>
+			</div>
+		
+		</div>
+	</main>
+
+
+	<!--<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>-->
+	<script src="main.js"></script>
+</body>
+</html>

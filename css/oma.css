@@ -1,0 +1,20 @@
+.paaNakyma {
+	min-height:100vh;
+}
+
+.peliLauta {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.peliRuutuRivi {
+	flex: 1;
+}
+
+.peliRuutu {
+	border-style: solid;
+	flex: 1;
+	/*min-height: 100px; 
+	min-width: 100px;*/
+}
